@@ -4,7 +4,7 @@
 
 Add the config.yaml file in the folder. Then:
 
->$ docker build -t fxkjd/beef .
+>$ docker build -t fxkjd/docker-beef .
 
 ## Usage
 
