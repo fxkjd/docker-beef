@@ -27,8 +27,6 @@ RUN gem install rake \
                       libsqlite3-dev \
   && apt-get -y autoremove
 
-COPY config.yaml /opt/beef/
-
 EXPOSE 3000 6789 61985 61986
 
 CMD ["ruby", "beef"]
